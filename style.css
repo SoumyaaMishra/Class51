@@ -1,0 +1,27 @@
+h1 {
+    color:aqua
+}
+*{
+    border:solid
+}
+
+.header{
+    display : flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2, p{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: #808080;
+}
